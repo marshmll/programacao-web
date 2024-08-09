@@ -1,0 +1,25 @@
+.form {
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+.input {
+    width: 280px;
+    margin-top: .5rem;
+    padding: 10px 20px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    display: block;
+}
+
+.submit-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: #088a68;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
