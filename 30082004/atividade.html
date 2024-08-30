@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form" method="post" action="https://formtester.goodbytes.be/post.php">
+      <label for="nome">Nome</label>
+      <br />
+      <input type="text" name="nome" id="nome" />
+      <br />
+      <label for="nome">Telefone</label>
+      <br />
+      <input type="tel" name="telefone" id="telefon" />
+      <br />
+      <label for="nome">Endereço</label>
+      <br />
+      <input type="text" name="endereco" id="endereco" />
+      <br />
+      <label for="nome">E-mail</label>
+      <br />
+      <input type="email" name="email" id="email" />
+      <br />
+      <fieldset>
+        <legend>Curso</legend>
+        <label for="banco-de-dados">Banco de Dados</label>
+        <input type="checkbox" name="banco-de-dados" id="banco-de-dados" checked />
+        <label for="programacao-web">Programação Web</label>
+        <input type="checkbox" name="programacao-web" id="programacao-web" />
+        <label for="estatistica">Estatística</label>
+        <input type="checkbox" name="estatistica" id="estatistica"/>
+      </fieldset>
+      <label for="forma-pagamento">Forma de Pagamento</label>
+      <br />
+      <select name="forma-pagamento">
+        <option value="pix" id="pix">Pix</option>
+        <option value="boleto" id="boleto">Boleto</option>
+        <option value="credito" id="credito">Cartão de Crédito</option>
+        <option value="debito" id="debito">Cartão de Débito</option>
+      </select>
+      <br />
+      <label for="data-inicio">Data de Início</label>
+      <br />    
+      <input type="date" name="data-inicio" id="data-inicio" />
+      <br />
+      <label for="data-max">Data Máxima de Término</label>
+      <br />
+      <input type="date" name="data-max" id="" />
+    </form>
+    <button onclick="submitForm()">Enviar Dados</button>
+    <button onclick="resetForm()">Limpar</button>
+  </body>
+  <script defer src="./atividade.js"></script>
+</html>
